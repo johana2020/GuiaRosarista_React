@@ -1,0 +1,12 @@
+.repositorioGeneral p{
+    padding: 0rem 2rem 0.5rem 2rem;
+}
+
+.repositorio h1{
+    padding-bottom: 2rem;
+}
+
+.repositorio .interbox{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}

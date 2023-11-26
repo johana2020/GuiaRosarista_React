@@ -3,17 +3,23 @@ import Profesor from './Profesores.jpg';
 import Repo from './Repositorio.jpg';
 import Materia from './Materias.jpg';
 import Horario from './Horario.jpg';
+import { Link } from "react-router-dom";
+import NavBar from '../../componentes/NavBar/navbar';
+import Header from '../../componentes/Header/header';
 
 
 function Inicio() {
   return (
+    <>
+    <Header/>
+    <NavBar/>
     <div>
         <div class="Inicio">
 
 <div class="profesor">
-  <a href="./Views/Profesor.html">
+  <Link to="./profesor">
   <img src={Profesor}/>
-  </a>
+  </Link>
 </div>
 
 <div class="materias">
@@ -37,6 +43,7 @@ function Inicio() {
 </div>
 
     </div>
+    </>
   );
 }
 
