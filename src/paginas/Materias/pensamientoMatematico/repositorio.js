@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import NavBar from "../../../componentes/NavBar/navbar";
 import Header from "../../../componentes/Header/header";
 import '../../Repositorio/repositorio.css'
-// import descarga from './quiz.txt'
+import descarga from './quiz.txt'
 function Materias() {
   return (
     <>
@@ -54,7 +54,8 @@ function Materias() {
                 <div class="right">
                 <ul>
                     <h1>Quices</h1>
-                    {/* <li><a href={descarga} download="Materia1_Quiz_2023-1_1.txt">Materia 13</a></li> */}
+                    <li><a href={descarga}
+                    download="Materia1_Quiz_2023-1_1.txt">Materia 13</a></li>
                     <li><a href="Profesor1.html">Materia 14</a></li>
                     <li><a href="Profesor1.html">Materia 15</a></li>
                     <li><a href="Profesor1.html">Materia 16</a></li>

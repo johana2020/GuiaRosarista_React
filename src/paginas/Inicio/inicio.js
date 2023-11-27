@@ -23,21 +23,21 @@ function Inicio() {
 </div>
 
 <div class="materias">
-  <a href="./Views/Materias.html">
+  <Link to="./materias">
   <img src={Materia}/>
-  </a>
+  </Link>
 </div>
 
 <div class="horario">
-  <a href="./Views/Horario.html">
+  <Link to="./horario">
   <img src={Horario}/>
-  </a>
+  </Link>
 </div>
 
 <div class="repositorio">  
-  <a href="./Views/Repositorio.html">
+  <Link to="./repositorio">
   <img src={Repo} />
-  </a>
+  </Link>
 </div>
 
 </div>
