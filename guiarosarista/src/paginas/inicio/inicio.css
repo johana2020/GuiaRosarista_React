@@ -1,0 +1,30 @@
+/*Inicio*/
+
+.Inicio{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 35% 30% 35%;
+    margin: 30px 0px 0px 30px;
+}
+
+img{
+    border-radius: 30px;
+    width: 250px;
+}
+
+.profesor{
+    grid-column: 2;
+    grid-row: 1;
+}
+.materias{
+    grid-column: 4;
+    grid-row: 1;
+}
+.repositorio{
+    grid-column: 4;
+    grid-row: 3;
+}
+.horario{
+    grid-column: 2;
+    grid-row: 3;
+}
