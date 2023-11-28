@@ -27,9 +27,7 @@ function Materias() {
                 <div class="boox1">
                     <p> Profesores que la dictan: </p> 
                     <ul> 
-                    <Link to='../../Profesor/SergioDuque'><li>Segio Nicolas Duque</li></Link>
-                    <Link to='../../Profesor/NormaSarmiento'><li>Norma Costanza Sarmiento</li></Link>
-                    <Link to='../../Profesor/PatriciaHernandez'><li>Patricia Hernandez</li></Link>
+                    
                     </ul>
                 </div>
             </div>
