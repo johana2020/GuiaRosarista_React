@@ -13,13 +13,13 @@ function Materias() {
         <div class = "Box"> 
             <div class="box1">
                 <div class="boox1">
-                    <h1> 11320002 - Arquitectura del computador</h1>
+                    <h1> 11310032 - Math. Model of Syst</h1>
                 </div>
                 <div class="boox1">
                     <p> Escuela de Ingeniería Ciencia y Tecnología</p>
                 </div>
                 <div class="boox1">
-                    <p> Tercer semestre (3 Créditos) </p> 
+                    <p> Cuarto semestre (2 Créditos) </p> 
                 </div>
             </div>
 
@@ -27,14 +27,14 @@ function Materias() {
                 <div class="boox1">
                     <p> Profesores que la dictan: </p> 
                     <ul> 
-                    
+                    <Link to='../../Profesor/DavidAndrade'><li>David Eugenio Andrade</li></Link>
                     </ul>
                 </div>
             </div>
 
             <div class ="box2">
                 <div class="boox2">
-                    <h1>Repositorios de Arquitectura del computador </h1>
+                    <h1>Repositorios de Math. Model of Syst</h1>
                     <ul> <p> Guia de Asignatura </p>
                     <li> Guia_Asignatura.pdf </li>
                     </ul>
