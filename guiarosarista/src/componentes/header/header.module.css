@@ -1,9 +1,8 @@
-/* Header
-
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #a70a19;
+    background-color:#a70a19;
+
 }
 
 .menu{
@@ -25,30 +24,7 @@
 
 .Logo {
     background-image: url(./LogoUR.png);
-} */
-
-/* Header*/
-
-header {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-header .menu{
-    display: flex;
-    flex-direction: row;
-}
-
-header .IBox{
-    margin: 2.7rem 1.5rem 2.7rem auto;    
-    display: flex;
     align-items: center;
-    background-color: #ffffff;
-    border-radius: 40px;
-    color:#a70a19;
-    font-size: 1.875rem;
 }
 
-header .IBox a{text-decoration: none;color: #a70a19;}
 
