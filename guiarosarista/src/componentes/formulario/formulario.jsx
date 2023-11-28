@@ -28,12 +28,11 @@ const LoginForm = () => {
 };
 
 return (
-    <div class="box">
+    <div>
       <h2>Iniciar sesión</h2>
       <form onSubmit={handleSubmit}>
-        <div class="box">
-          <label  htmlFor="email">Correo electrónico:</label>
-         
+        <div>
+          <label for="username" class="custom-label">Correo electrónico:</label>
           <input
             type="email"
             id="email"
@@ -42,9 +41,9 @@ return (
             required
           />
         </div>
-        <div class="box">
-          <label htmlFor="password">Contraseña:</label>
-         
+
+        <div>
+        <label for="username" class="custom-label">Contraseña:</label>         
           <input
             type="password"
             id="password"
@@ -53,7 +52,7 @@ return (
             required
           />
         </div>
-        <button type="submit">Iniciar sesión</button>
+        <button class = "botonS">Acceder</button>
       </form>
     </div>
   );

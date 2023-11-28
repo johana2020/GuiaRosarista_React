@@ -13,9 +13,9 @@ function Login() {
     <Header/>
     <nav_bar/>     
     
-        <div class="box" >
-            <LoginForm/>
-    </div>
+  <div class="box" >
+      <LoginForm/>
+  </div>
     </BrowserRouter>
     </>
   );
