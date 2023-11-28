@@ -89,6 +89,8 @@ function Profesor1() {
                 <Link to = "../../Materias/logicaCienciaComputacion/logicaCienciaComputacion">Lógica para ciencia de computación</Link>
                 <br></br>
                 <Link to = "../../Materias/teoriaComputacion/teoriaComputacion">Teoría de la computación</Link>
+                <br></br>
+                <Link to = "../../Materias/variableCompleja/variableCompleja">Variable compleja</Link>
             </div>
         </div>
     </div>

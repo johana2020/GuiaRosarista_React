@@ -85,6 +85,7 @@ function Profesor1() {
             <h1>Materias</h1>
             <div class="texto">
                 <Link to = "../../Materias/logicaCienciaComputacion/logicaCienciaComputacion">Lógica para ciencia de computación</Link>
+                <Link to = "../../Materias/teoriaGrafos/teoriaGrafos">Teoría de grafos</Link>
             </div>
         </div>
     </div>

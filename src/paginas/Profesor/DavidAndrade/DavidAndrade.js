@@ -87,6 +87,10 @@ function Profesor1() {
                 <Link to = "../../Materias/calculo2/calculo2">Cálculo 2</Link>
                 <br></br>
                 <Link to = "../../Materias/calculo3/calculo3">Cálculo 3</Link>
+                <br></br>
+                <Link to = "../../Materias/probabilidad2/probabilidad2">Probabilidad y Estadística II</Link>
+                <br></br>
+                <Link to = "../../Materias/mathModel/mathModel">Math. Model of Syst</Link>
             </div>
         </div>
     </div>

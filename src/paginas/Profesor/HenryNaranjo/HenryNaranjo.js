@@ -87,6 +87,8 @@ function Profesor1() {
                 <Link to = "../../Materias/precalculo/precalculo">Precálculo</Link>
                 <br></br>
                 <Link to = "../../Materias/calculo3/calculo3">Cálculo 3</Link>
+                <br></br>
+                <Link to = "../../Materias/variableCompleja/variableCompleja">Variable Compleja</Link>
             </div>
         </div>
     </div>
