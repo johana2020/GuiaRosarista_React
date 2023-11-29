@@ -11,4 +11,8 @@
     margin: 5px;
     /* Otros estilos que desees para los botones */
   }
+
+  .boton a{
+    color: #000;
+  }
   

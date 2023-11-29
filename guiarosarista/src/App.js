@@ -11,11 +11,11 @@ function App() {
   return (<>
   {/* 
   <Navbar/>
-  <Registro/>
   <Inicio/> 
+  <Login/>
   <Horario/>
 */}
-<Login/>
+<Registro/>
   </>
      );
 }

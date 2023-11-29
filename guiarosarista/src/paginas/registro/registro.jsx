@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import '../../paginas/registro/estiloregistro.css';
+import '../registro/estiloregistro.css';
 import { BrowserRouter, Link } from "react-router-dom";
-import Header from '../../componentes/header/header';
+import Header from '../../componentes/Header/header';
+import NavBar from '../../componentes/NavBar/navbar';
+import { useState } from 'react';
 
 const Registro = () => {
     const [email, setEmail] = useState('');
@@ -28,9 +29,9 @@ const Registro = () => {
 
     return(
        <>
-        <BrowserRouter>
         <Header/>
-
+        <NavBar/>
+        <br/>
     <form class="registration-form">
     <div>
     <label for="username">Usuario:</label>
@@ -54,7 +55,6 @@ const Registro = () => {
   </div>
   <button type="submit">Crea una cuenta</button>
 </form>
-</BrowserRouter>
     </>
 );
     };
