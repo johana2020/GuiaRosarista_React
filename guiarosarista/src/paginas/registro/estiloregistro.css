@@ -18,6 +18,7 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    place-items: center
   }
   
   .registration-form input[type="text"],
