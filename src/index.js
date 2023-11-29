@@ -119,6 +119,38 @@ import MateriasingenieriaDatos from './paginas/Materias/ingenieriaDatos/ingenier
 import MateriasingenieriaDatosRepositorio from './paginas/Materias/ingenieriaDatos/repositorio';
 import Materiasoptimización from './paginas/Materias/optimización/optimización';
 import MateriasoptimizaciónRepositorio from './paginas/Materias/optimización/repositorio';
+import Materiasprobabilidad1 from './paginas/Materias/probabilidad1/probabilidad1';
+import Materiasprobabilidad1Repositorio from './paginas/Materias/probabilidad1/repositorio';
+import MateriasteoriaGrafos from './paginas/Materias/teoriaGrafos/teoriaGrafos';
+import MateriasteoriaGrafosRepositorio from './paginas/Materias/teoriaGrafos/repositorio';
+import MateriasvariableCompleja from './paginas/Materias/variableCompleja/variableCompleja';
+import MateriasvariableComplejaRepositorio from './paginas/Materias/variableCompleja/repositorio';
+import MateriasecuacionesDiferenciales from './paginas/Materias/ecuacionesDiferenciales/ecuacionesDiferenciales';
+import MateriasecuacionesDiferencialesRepositorio from './paginas/Materias/ecuacionesDiferenciales/repositorio';
+import MateriasanalisisReal from './paginas/Materias/analisisReal/analisisReal';
+import MateriasanalisisRealRepositorio from './paginas/Materias/analisisReal/repositorio';
+import Materiasprobabilidad2 from './paginas/Materias/probabilidad2/probabilidad2';
+import Materiasprobabilidad2Repositorio from './paginas/Materias/probabilidad2/repositorio';
+import Materiaskeystone from './paginas/Materias/keystone/keystone';
+import MateriaskeystoneRepositorio from './paginas/Materias/keystone/repositorio';
+import Materiastopologia from './paginas/Materias/topologia/topologia';
+import MateriastopologiaRepositorio from './paginas/Materias/topologia/repositorio';
+import MateriasmathModel from './paginas/Materias/mathModel/mathModel';
+import MateriasmathModelRepositorio from './paginas/Materias/mathModel/repositorio';
+import MateriasanalisisEstadistico from './paginas/Materias/analisisEstadistico/analisisEstadistico';
+import MateriasanalisisEstadisticoRepositorio from './paginas/Materias/analisisEstadistico/repositorio';
+import MateriasredesComputadores from './paginas/Materias/redesComputadores/redesComputadores';
+import MateriasredesComputadoresRepositorio from './paginas/Materias/redesComputadores/repositorio';
+import MateriasalgebraAbstracta from './paginas/Materias/algebraAbstracta/algebraAbstracta';
+import MateriasalgebraAbstractaRepositorio from './paginas/Materias/algebraAbstracta/repositorio';
+import MateriasanlisisNumCom from './paginas/Materias/anlisisNumCom/anlisisNumCom';
+import MateriasanlisisNumComRepositorio from './paginas/Materias/anlisisNumCom/repositorio';
+import MateriasoperatingSystems from './paginas/Materias/operatingSystems/operatingSystems';
+import MateriasoperatingSystemsRepositorio from './paginas/Materias/operatingSystems/repositorio';
+import Materiasgeometria from './paginas/Materias/geometria/geometria';
+import MateriasgeometriaRepositorio from './paginas/Materias/geometria/repositorio';
+import Materiascapstone from './paginas/Materias/capstone/capstone';
+import MateriascapstoneRepositorio from './paginas/Materias/capstone/repositorio';
 import Repositorio from './paginas/Repositorio/RepositorioLista';
 const router = createBrowserRouter([
   {
@@ -588,6 +620,134 @@ const router = createBrowserRouter([
     path: "materias/optimización/repositorio",
     element: <MateriasoptimizaciónRepositorio/>,
   },
+  {
+    path: "materias/probabilidad1",
+    element: <Materiasprobabilidad1/>,
+    },
+    {
+    path: "materias/probabilidad1/repositorio",
+    element: <Materiasprobabilidad1Repositorio/>,
+    },
+    {
+    path: "materias/teoriaGrafos",
+    element: <MateriasteoriaGrafos/>,
+    },
+    {
+    path: "materias/teoriaGrafos/repositorio",
+    element: <MateriasteoriaGrafosRepositorio/>,
+    },
+    {
+    path: "materias/variableCompleja",
+    element: <MateriasvariableCompleja/>,
+    },
+    {
+    path: "materias/variableCompleja/repositorio",
+    element: <MateriasvariableComplejaRepositorio/>,
+    },
+    {
+    path: "materias/ecuacionesDiferenciales",
+    element: <MateriasecuacionesDiferenciales/>,
+    },
+    {
+    path: "materias/ecuacionesDiferenciales/repositorio",
+    element: <MateriasecuacionesDiferencialesRepositorio/>,
+    },
+    {
+    path: "materias/analisisReal",
+    element: <MateriasanalisisReal/>,
+    },
+    {
+    path: "materias/analisisReal/repositorio",
+    element: <MateriasanalisisRealRepositorio/>,
+    },
+    {
+    path: "materias/probabilidad2",
+    element: <Materiasprobabilidad2/>,
+    },
+    {
+    path: "materias/probabilidad2/repositorio",
+    element: <Materiasprobabilidad2Repositorio/>,
+    },
+    {
+    path: "materias/keystone",
+    element: <Materiaskeystone/>,
+    },
+    {
+    path: "materias/keystone/repositorio",
+    element: <MateriaskeystoneRepositorio/>,
+    },
+    {
+    path: "materias/topologia",
+    element: <Materiastopologia/>,
+    },
+    {
+    path: "materias/topologia/repositorio",
+    element: <MateriastopologiaRepositorio/>,
+    },
+    {
+    path: "materias/mathModel",
+    element: <MateriasmathModel/>,
+    },
+    {
+    path: "materias/mathModel/repositorio",
+    element: <MateriasmathModelRepositorio/>,
+    },
+    {
+    path: "materias/analisisEstadistico",
+    element: <MateriasanalisisEstadistico/>,
+    },
+    {
+    path: "materias/analisisEstadistico/repositorio",
+    element: <MateriasanalisisEstadisticoRepositorio/>,
+    },
+    {
+    path: "materias/redesComputadores",
+    element: <MateriasredesComputadores/>,
+    },
+    {
+    path: "materias/redesComputadores/repositorio",
+    element: <MateriasredesComputadoresRepositorio/>,
+    },
+    {
+    path: "materias/algebraAbstracta",
+    element: <MateriasalgebraAbstracta/>,
+    },
+    {
+    path: "materias/algebraAbstracta/repositorio",
+    element: <MateriasalgebraAbstractaRepositorio/>,
+    },
+    {
+    path: "materias/anlisisNumCom",
+    element: <MateriasanlisisNumCom/>,
+    },
+    {
+    path: "materias/anlisisNumCom/repositorio",
+    element: <MateriasanlisisNumComRepositorio/>,
+    },
+    {
+    path: "materias/operatingSystems",
+    element: <MateriasoperatingSystems/>,
+    },
+    {
+    path: "materias/operatingSystems/repositorio",
+    element: <MateriasoperatingSystemsRepositorio/>,
+    },
+    {
+    path: "materias/geometria",
+    element: <Materiasgeometria/>,
+    },
+    {
+    path: "materias/geometria/repositorio",
+    element: <MateriasgeometriaRepositorio/>,
+    },
+    {
+    path: "materias/capstone",
+    element: <Materiascapstone/>,
+    },
+    {
+    path: "materias/capstone/repositorio",
+    element: <MateriascapstoneRepositorio/>,
+    },
   {
     path: "repositorio",
     element: <Repositorio/>,

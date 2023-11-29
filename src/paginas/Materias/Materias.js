@@ -38,7 +38,7 @@ function Materias() {
               <ul>
                 <Link to="./diseñoAlgoritmos"><li>Diseño y análisis de Algoritmos</li></Link>
                 <Link to="./probabilidad1"><li>Probabilidad y Estadística I</li></Link>
-                <Link to="./grafos"><li>Teoría de grafos</li></Link>
+                <Link to="./teoriaGrafos"><li>Teoría de grafos</li></Link>
                 <Link to="./variableCompleja"><li>Variable compleja</li></Link>
                 <Link to="./ecuacionesDiferenciales"><li>Ecuaciones Diferenciales</li></Link>
                 <Link to="./analisisReal"><li>Análisis Real</li></Link>

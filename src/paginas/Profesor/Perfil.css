@@ -78,13 +78,16 @@ p{
 }
 
 .Comentario{
-    display: grid;
-	grid-template-columns: 20% 60% 40%;
-	grid-template-rows: 10% 53% 5% 20% 20%;
+	display: grid;
+}
+
+.Comentario .texto{
+	font-size: 1.5rem;
+
 }
 
 .Comentario .extras{
-	grid-column: 5;
+	grid-row: 2;
 }
 
 .RedLine {
