@@ -1,0 +1,14 @@
+.contenedor-flex {
+    display: flex;
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 100vh; /* Opcional: hace que el contenedor ocupe todo el alto de la pantalla */
+  }
+  
+  .boton {
+    /* Estilos para tus botones */
+    padding: 10px 20px;
+    margin: 5px;
+    /* Otros estilos que desees para los botones */
+  }
+  

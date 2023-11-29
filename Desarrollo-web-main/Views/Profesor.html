@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Simbaqueba" content="Profesor">
+    <title>Profesor</title>
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/Style.css">
+</head>
+<body>
+  
+    <!-- header -->
+    <header>
+      <div class="Logo">
+        <img src="../assets/Imagenes/LogoUR.png">
+      </div>
+
+      <div class="menu">
+        <div class="IBox">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABCxJREFUWEftl11oHFUUx//nTpLNzsZaojQ7k1TBirUQkoiIIn7URx+0VSHuLLUmPogfIDRqzYNgig9Sa6l98AtUVOruZgUpKr7aPkQFUWMThFAL0SY7W42a0u7MJtmZI/OxsjSb3bvpPgTxvs3MOf/zm/89994ZwgYbtMF48N8BSkf1rSR4xHXRT4Rez2lmTJPAJFw6Yti5s+txf10OpVR9NwEfAHxl9aJ0noGhpJU73ihUw0CZqDbChMMyhZixL2mbr8vElmMaAkrFevqIne8AtIUCX8PFaLE9MuVdq8WlPlfQQYBvC58vK4JvGryY/1kWShroK6Alr8a/B6jPFycenynkk2OAW1ksCyiuqo0z8JAfBkx2WeYt9wAlGShpoFR7/G4SdCIU/bvYFrlueHF2sVqRD6/ovqrN4TPlHmMWtyft+W+aCpSJ6cPM/H4o+qlhmb4Da42MGv+MQff5q4/wSLJgHmsqUCqm7yfmg8Fs8asJO/9CrQKpmHaYGCMBED+XLOSlFoL0lGVUfReD/WVMwPGEZT4g7RDo/qSV+7ypDmXb9Wscwb+Gon8tK+KGRy/M/1mtyEcdXVtaXXEawKbgeUu3YZ3NNRXIE0ur2pcA7g1WGWVnCjnj0lU2BojtqvYJgAcDAPrCsHJ+L8kM6SnzgaL6VhDPAIiGxb6Fy/uVaPGUXVJbWld4BwkcqtiHLIfF9j32/JwMTNgOsqFBXDqqPwPiozJZDH46aeXflIktxzTkUDmp3llGwKIL2ivbyJXA6wIqT1/FaT8AbydmmmLBky0oHRos/JFvxJnLcmg9hWRzGnYoi55oKcoDgpwBhuiqVojgnnNZmVyyW38cxmxRFka6qb2lfGMs/iwzHgdoW7A3Sg0G4TS7eMuwzaMEcL2susLZSM/1juJ459Ct9cTqPJ9QHGVocGnul1pxNYFSMW0PMd4FEKloukUGpgH6CcDCGuJXA9xPQC8DmytilohpKGHnMmtBrQmUiWzZxooyDaA9TF4GY9SwzSOyTjFA41FtHxNeqfioK5Lj9CaWfj9Tvf+q3A22f32iYsedJRK7E4V5z5WGx8ex7gHBrncwXxsmTyQs885qPVXVoUxMH2Vm7628UWJSbk4W5k41TFKRkIl19zO7PwAQ/m3i541C/rVLNasCpVU9B7AWBPOYYeUPXA5MOTetai8DeDG8/s2wzLJj/8qvAspu6ul0Sk75s8JV1ZXNuxYWLjQD6Fhn5yalGDlf1lqx3I69OFeo1F4FNN6u3eUKnPRdBaYSlhl81DdppFXN+wPZ4ckJpjsetnMTNYFSavwpAr0RAr2TsMwnmsTiy6TV+HsAPRZqPmlY5ts1gdKqPgbwS0EQHTCs3FhzgWrrr5qydEd8J1yx04cQ7gnjYr7869MUrnr6dY+OplA0IPI/UD2zNpxD/wDD/4I01PNk0AAAAABJRU5ErkJggg=="/>
+            <a href="./Perfil.html">Mi Perfil</a>
+        </div>
+
+        <div class="IBox">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAflJREFUWEftmL8vA2EYx7/P2xC5WGyn/wqJWkgkxER7YpOINAYjCwZhNIhBbKIdTRYWhCDR1X+gb4XR3VFyjxTDtb3re29b0sjd+j4/Pvd9fuS9I3TYQx3GgxhIVZFQhXI95hAJGgCoWxVE75zLwsPl9Ku8CPILBMobyR2As3qJ9KyJsJ225VKtVx1QzkhOEvhIL3xz1kQ0mraLJ37vOqC80b8CYOPLiHAOprPm0oV4EafAGKqcMmHFsuWmAii5BvDqtxGtZ5ziWjuB8kbj+AEKxUBVFfh/CuWM/nkG7mYcWYjSa/o91Gum4InUV3DhnWVeSg2n7CfBMghzGVseqKC0gVQBa8+rE2DPdGR2GPgIi/PXQJVVcZMQ3sTUS+kpCEobKO8vWRS5fIvOZ14Ce5MZ9/G2saL1e04xZVGIQm3KQX2lr1DVJm0J6IOBBcuR+/4o+kDtKdkzs5iw3Ifrlkumq0nNlFWuoIV3vI/POs+yLU3dEhDjIOH2zU3hvty2sa+aMo3FSMBi2pF7qhfS7yHF9aC+J8wsMRfS7uONCqZy/utAUSBamzJNhWKgDrjCdtgl/9AwxwToWLc3mrFnohHLLp76fcM+FHcBXmgmSVQfZmxZrlyutW/4KS0EDTKoK2qSKHZM/Jbw6GLaLV4F2cd/P1QqxgqpFPoEfAxiNPIXqGgAAAAASUVORK5CYII="/>
+        </div>
+      </div>
+    </header>
+
+    <!-- NavBar -->
+    
+    <nav>
+      <div class="boox">
+        <a href="../Inicio.html" class="item">Pagina inicio</a>
+        <a href="./Profesor.html" class="item">Profesores</a>
+        <a href="./Materias.html" class="item">Materias</a>
+        <a href="./Horario.html" class="item">Horario</a>
+        <a href="./Repositorio.html" class="item">Repositorio</a> 
+      </div>  
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAzJJREFUWEftl1uoT3kUxz9fBqWMvLnTMJERzYt0eNCow0zUPJhpNC5Tbi/KTJ2IktLJNZHQhFxqpGamppjMKbk9oHkaRWFymYhkFCUOwtLSOmafbZ/z37/h/+8o623vvdZ3fff6rdtPdDBRB+PDu0nIzD4D6oGxwEdAb+AWcAU4DTRJOvE2ot1uhMxsNLAVGFfC2RFgoaQLJXTbVGmTkJnNBHYA3RIcNANfS/o9waaVaiEhM5sG/JLRfAr8CBwDLgJX4+iGA36c84HOGf16SYf/D6nXCJnZIOAs0CMALwNfSPq7LQdmNhL4A+gfOv8CIyTdSSVVROg34MsA8miMLwNsZk7mFDAgbLdLWvBGhMxsDPBngDwBhkn6pyxoFMFf8LKdGDBUkldiaWkVITPbBCwK602SfiiNFIpmth/4Jh4XS1qfgpEn5CU7LADqJHmPSRIz+wr4OYyOSpqYApAndA/oGQAfSrqfAua6ZjY4qtAfr0nyIikteUKeN13C+gNJz0oj/Xdk3rcexWOzpO4pGHlCN4E+AdBHko+HJDGzvsCNMDoraVQKQJ7QSaAuAD6X1JQCFkc2FTgQdvskzUjByBNaDqwMgJ2S5qWABaGfgG/DbomkdSkYeUI+Cs4HwPPott4cS0n0oTOh/Bj4WNL1UsahVNSp9wKz4vsln/SSblcCNbOB0an7hW6jJI94khQR8qQ8B/QKJB+kkyvMsk+BQ7EnuZkXwxBJD5PYRIt/zcbMpgAHMx982m8DjmemvTfQEcAEYG4O61fgO0kP3gqhSM7pwB6gawKo9x/PId8s7wI+ijZL8oZbSiptjJ8AWyIKlQCPAl6VHk3PvZYG68e2VlJL9baLU2rJj516Uman9jzrBLgz36V3S3q10JmZL3P51WO5pMZKf1WKUCWQ/PeoOF87slukq62oFKmqEIocXAUsLfiZdZKWtPWT1STk2H5JmFPg3ItljiRvvq2kaoQiSp5nu4DZBaT8/VxJvlm+kqoSavFiZhuB7wtI+ZUpe7up3VXazHyVbciQWi1pWU2PrKD61gCe0A2SNhQldk2OLOvYzCZI8hFUKDUnVKmnvSf0zkXoBUbP/CV1fHarAAAAAElFTkSuQmCC"/>
+    </nav>
+  
+
+  <!--Aquí Inicia-->
+
+    <div class="box" >
+        <h1>Listado de profesores</h1>
+        <div class="Interbox" >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAvJJREFUWEfV11uopnMUBvDfOJZC7hinaRAxmdxMwoUohigXiByLMTdTqIkoKckxkZDQoEihFELJ6QK5oiiHGDKRUJQcc+rR2uadt3fv7/2Pvb/Z1s33vd+31vN/Wv+1nrXeJRaZLVlkfPxvCR2HE3AklmNPfIWNeBMv4LX5yPakDK3E3Th6xGEvYR0+GOE7q8tchM7D/di54YCfcSaebYjZwnU2QqfjiY7n77gXr+BDfFpXdwhynZdg+45/rvfFrSE1RGh/vItdC/ATnIyP5jhgBZ7HPuXzDQ7Ft62khgg9hdMKKNk4ZiRwyLyBfSv2Pqz9r4RW4a0C+Q0H47MG0DTB2/wjJ3/hwOrE0RD9DN2BSys63y8fjbTZ8TGcVY9X4NYWjD6htGyyEjuqNKYFL75n4PEKehnHtwD0CX2P3QtgN/zQAla+y6oL8/g50iSjrU8odbNjRe+AP0YjbXaMbv1Sj9GlXVow+oS+xF4FkM+Mh1Zbii8qKPJxeAtAn9DrVTvBOKlmVAtefE/F0xX0KM5tAegTugbXFcADWNMCVr6P4Jz6fiVuacHoE8ooeL8A/iy1jTiOtejQO+X8Kw7CprHB8RtS6odxfoF8XJP+6xGg+5VS712+1yMZb7IhQinK97BHIWWQrp4wy47Ac7UnJSzNcAB+amIzS4aCcQqe6YBl2t+DVzvTPgKaAXosLu5hPYkL8eN8EQrO2XgIOzWARn9SQ9ksv0PGz52I4I6ySRvjYbirsjAJMGMiXZlspvZmBDbXdnOne+fEmURoJjhL2ImdnTp1tl3VSHbpB3sLXZa5/uqRAk+hzwuhSTj9/9NxeQHobpHxuXZSpsZmqJVQ/G/AVQOBEcoI5qAtJKFg5yXhooGT0yz5PeK7hS0koRyUOtuACwZI5ffIRTbLf22hCc0cdDsuGyCVV6bu281UX6Wzyq7vkLoRV0/7yvrn3VQFHWK3DVX1tK6se3ZGTUbQ1Ltsa6RiqjU0iuC2uLI5iS06Qn8D1St7JWzOI0kAAAAASUVORK5CYII="/>
+          <hr><br>
+            <ul>
+                <li><a href="Profesor1.html">Profesor 01</a></li>
+                <li><a href="Profesor1.html">Profesor 02</a></li>
+                <li><a href="Profesor1.html">Profesor 03</a></li>
+                <li><a href="Profesor1.html">Profesor 04</a></li>
+              </ul>
+            <ul>
+                
+                <li><a href="Profesor1.html">Profesor 05</a></li>
+                <li><a href="Profesor1.html">Profesor 06</a></li>
+                <li><a href="Profesor1.html">Profesor 07</a></li>
+                <li><a href="Profesor1.html">Profesor 08</a></li>
+              </ul>
+            <ul>
+                
+                <li><a href="Profesor1.html">Profesor 09</a></li>
+                <li><a href="Profesor1.html">Profesor 10</a></li>
+                <li><a href="Profesor1.html">Profesor 11</a></li>
+                <li><a href="Profesor1.html">Profesor 12</a></li>
+              </ul>
+            <ul>
+                <li><a href="Profesor1.html">Profesor 13</a></li>
+                <li><a href="Profesor1.html">Profesor 14</a></li>
+                <li><a href="Profesor1.html">Profesor 15</a></li>
+                <li><a href="Profesor1.html">Profesor 16</a></li>
+              </ul>
+            <ul>
+                <li><a href="Profesor1.html">Profesor 17</a></li>
+                <li><a href="Profesor1.html">Profesor 18</a></li>
+                <li><a href="Profesor1.html">Profesor 19</a></li>
+                <li><a href="Profesor1.html">Profesor 20</a></li>
+              </ul>
+            <ul>    
+                <li><a href="Profesor1.html">Profesor 21</a></li>
+                <li><a href="Profesor1.html">Profesor 22</a></li>
+              </ul>
+            
+          </div>
+        <br>
+        <div class="botonS" style="position: relative; left: 300px; bottom: 20px;"><a href="AgregarProfesor.html" target="_blank">Agregar Profesor</div></a></div>
+        
+    </div>
+
+</body>
+</html>

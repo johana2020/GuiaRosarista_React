@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Simbaqueba" content="Materia">
+    <title>Eliminar materia</title>
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/Style.css">
+</head>
+<body>
+  
+    <!-- NavBar -->
+
+    <div class="NavBar">
+        <img src="../assets/Imagenes/LogoUR.png" style="width: 20%;">
+        <div class="IBox" style="position: relative; top:-45px; left: 670px;">
+            <img style="position: relative; top:8px; right: -3px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABCxJREFUWEftl11oHFUUx//nTpLNzsZaojQ7k1TBirUQkoiIIn7URx+0VSHuLLUmPogfIDRqzYNgig9Sa6l98AtUVOruZgUpKr7aPkQFUWMThFAL0SY7W42a0u7MJtmZI/OxsjSb3bvpPgTxvs3MOf/zm/89994ZwgYbtMF48N8BSkf1rSR4xHXRT4Rez2lmTJPAJFw6Yti5s+txf10OpVR9NwEfAHxl9aJ0noGhpJU73ihUw0CZqDbChMMyhZixL2mbr8vElmMaAkrFevqIne8AtIUCX8PFaLE9MuVdq8WlPlfQQYBvC58vK4JvGryY/1kWShroK6Alr8a/B6jPFycenynkk2OAW1ksCyiuqo0z8JAfBkx2WeYt9wAlGShpoFR7/G4SdCIU/bvYFrlueHF2sVqRD6/ovqrN4TPlHmMWtyft+W+aCpSJ6cPM/H4o+qlhmb4Da42MGv+MQff5q4/wSLJgHmsqUCqm7yfmg8Fs8asJO/9CrQKpmHaYGCMBED+XLOSlFoL0lGVUfReD/WVMwPGEZT4g7RDo/qSV+7ypDmXb9Wscwb+Gon8tK+KGRy/M/1mtyEcdXVtaXXEawKbgeUu3YZ3NNRXIE0ur2pcA7g1WGWVnCjnj0lU2BojtqvYJgAcDAPrCsHJ+L8kM6SnzgaL6VhDPAIiGxb6Fy/uVaPGUXVJbWld4BwkcqtiHLIfF9j32/JwMTNgOsqFBXDqqPwPiozJZDH46aeXflIktxzTkUDmp3llGwKIL2ivbyJXA6wIqT1/FaT8AbydmmmLBky0oHRos/JFvxJnLcmg9hWRzGnYoi55oKcoDgpwBhuiqVojgnnNZmVyyW38cxmxRFka6qb2lfGMs/iwzHgdoW7A3Sg0G4TS7eMuwzaMEcL2susLZSM/1juJ459Ct9cTqPJ9QHGVocGnul1pxNYFSMW0PMd4FEKloukUGpgH6CcDCGuJXA9xPQC8DmytilohpKGHnMmtBrQmUiWzZxooyDaA9TF4GY9SwzSOyTjFA41FtHxNeqfioK5Lj9CaWfj9Tvf+q3A22f32iYsedJRK7E4V5z5WGx8ex7gHBrncwXxsmTyQs885qPVXVoUxMH2Vm7628UWJSbk4W5k41TFKRkIl19zO7PwAQ/m3i541C/rVLNasCpVU9B7AWBPOYYeUPXA5MOTetai8DeDG8/s2wzLJj/8qvAspu6ul0Sk75s8JV1ZXNuxYWLjQD6Fhn5yalGDlf1lqx3I69OFeo1F4FNN6u3eUKnPRdBaYSlhl81DdppFXN+wPZ4ckJpjsetnMTNYFSavwpAr0RAr2TsMwnmsTiy6TV+HsAPRZqPmlY5ts1gdKqPgbwS0EQHTCs3FhzgWrrr5qydEd8J1yx04cQ7gnjYr7869MUrnr6dY+OplA0IPI/UD2zNpxD/wDD/4I01PNk0AAAAABJRU5ErkJggg=="/>
+            <a href="./Perfil.html">Mi Perfil</a>
+        </div>
+  
+        <div class="IBox" style="position: relative; top:-45px; left: 630px;">
+            <img style="position: relative; top:8px; right: -9px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAflJREFUWEftmL8vA2EYx7/P2xC5WGyn/wqJWkgkxER7YpOINAYjCwZhNIhBbKIdTRYWhCDR1X+gb4XR3VFyjxTDtb3re29b0sjd+j4/Pvd9fuS9I3TYQx3GgxhIVZFQhXI95hAJGgCoWxVE75zLwsPl9Ku8CPILBMobyR2As3qJ9KyJsJ225VKtVx1QzkhOEvhIL3xz1kQ0mraLJ37vOqC80b8CYOPLiHAOprPm0oV4EafAGKqcMmHFsuWmAii5BvDqtxGtZ5ziWjuB8kbj+AEKxUBVFfh/CuWM/nkG7mYcWYjSa/o91Gum4InUV3DhnWVeSg2n7CfBMghzGVseqKC0gVQBa8+rE2DPdGR2GPgIi/PXQJVVcZMQ3sTUS+kpCEobKO8vWRS5fIvOZ14Ce5MZ9/G2saL1e04xZVGIQm3KQX2lr1DVJm0J6IOBBcuR+/4o+kDtKdkzs5iw3Ifrlkumq0nNlFWuoIV3vI/POs+yLU3dEhDjIOH2zU3hvty2sa+aMo3FSMBi2pF7qhfS7yHF9aC+J8wsMRfS7uONCqZy/utAUSBamzJNhWKgDrjCdtgl/9AwxwToWLc3mrFnohHLLp76fcM+FHcBXmgmSVQfZmxZrlyutW/4KS0EDTKoK2qSKHZM/Jbw6GLaLV4F2cd/P1QqxgqpFPoEfAxiNPIXqGgAAAAASUVORK5CYII="/>
+    
+        </div>
+        <br>
+        <div class="boox"><a href="../Inicio.html">Pagina inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Profesor.html">Profesores</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Materias.html">Materias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Horario.html">Horario</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Repositorio.html">Repositorio</a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAzJJREFUWEftl1uoT3kUxz9fBqWMvLnTMJERzYt0eNCow0zUPJhpNC5Tbi/KTJ2IktLJNZHQhFxqpGamppjMKbk9oHkaRWFymYhkFCUOwtLSOmafbZ/z37/h/+8o623vvdZ3fff6rdtPdDBRB+PDu0nIzD4D6oGxwEdAb+AWcAU4DTRJOvE2ot1uhMxsNLAVGFfC2RFgoaQLJXTbVGmTkJnNBHYA3RIcNANfS/o9waaVaiEhM5sG/JLRfAr8CBwDLgJX4+iGA36c84HOGf16SYf/D6nXCJnZIOAs0CMALwNfSPq7LQdmNhL4A+gfOv8CIyTdSSVVROg34MsA8miMLwNsZk7mFDAgbLdLWvBGhMxsDPBngDwBhkn6pyxoFMFf8LKdGDBUkldiaWkVITPbBCwK602SfiiNFIpmth/4Jh4XS1qfgpEn5CU7LADqJHmPSRIz+wr4OYyOSpqYApAndA/oGQAfSrqfAua6ZjY4qtAfr0nyIikteUKeN13C+gNJz0oj/Xdk3rcexWOzpO4pGHlCN4E+AdBHko+HJDGzvsCNMDoraVQKQJ7QSaAuAD6X1JQCFkc2FTgQdvskzUjByBNaDqwMgJ2S5qWABaGfgG/DbomkdSkYeUI+Cs4HwPPott4cS0n0oTOh/Bj4WNL1UsahVNSp9wKz4vsln/SSblcCNbOB0an7hW6jJI94khQR8qQ8B/QKJB+kkyvMsk+BQ7EnuZkXwxBJD5PYRIt/zcbMpgAHMx982m8DjmemvTfQEcAEYG4O61fgO0kP3gqhSM7pwB6gawKo9x/PId8s7wI+ijZL8oZbSiptjJ8AWyIKlQCPAl6VHk3PvZYG68e2VlJL9baLU2rJj516Uman9jzrBLgz36V3S3q10JmZL3P51WO5pMZKf1WKUCWQ/PeoOF87slukq62oFKmqEIocXAUsLfiZdZKWtPWT1STk2H5JmFPg3ItljiRvvq2kaoQiSp5nu4DZBaT8/VxJvlm+kqoSavFiZhuB7wtI+ZUpe7up3VXazHyVbciQWi1pWU2PrKD61gCe0A2SNhQldk2OLOvYzCZI8hFUKDUnVKmnvSf0zkXoBUbP/CV1fHarAAAAAElFTkSuQmCC"/>
+        </div>
+        
+    </div>
+
+  <!--Aquí Inicia-->
+<div class="box" style=" width: 820px; position: relative; left: 250px;">
+    <h1> Se va a eliminar la Materia 1.</h1>
+    <h1>¿Confirmar?</h1>
+
+        <div class="botonS" style="position: relative; left: 300px; bottom: 20px; top: 10px;">
+            <a href="../Inicio.html">Confirmar</a>
+        </div>
+        <br>
+</div>
+
+
+
+</body>
+</html>

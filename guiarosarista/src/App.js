@@ -5,6 +5,7 @@ import nav_bar from './componentes/nav_bar/nav_bar';
 import Inicio from './paginas/inicio/incio';
 import Login from './paginas/sesion/i_s';
 import Registro from './paginas/registro/registro';
+import Horario from './paginas/horario/horario';
 
 function App() {
   return (<>
@@ -12,8 +13,9 @@ function App() {
   <Navbar/>
   <Registro/>
   <Inicio/> 
+  <Horario/>
 */}
-  <Login/>
+<Login/>
   </>
      );
 }

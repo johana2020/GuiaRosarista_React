@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+
+
+body {background-image: url("../imagenes/Fondo.png");}
+
+p, .texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* NavBar */
+
+nav{
+    background-image: url(../Imagenes/fondoBlanco.png);
+    font-weight:900;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.875rem;
+    padding: 1.2rem;
+
+}
+
+nav .boox a{text-decoration: none; color: #fff;}
+
+nav .item{
+    padding: 1rem;
+}
+
+nav img{
+    padding-right: 2rem;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+}
+
+header .IBox{
+    margin: 2.7rem 1.5rem 2.7rem auto;    
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    color:#a70a19;
+    font-size: 1.875rem;
+}
+
+header .IBox a{text-decoration: none;color: #a70a19;}
+
+/* Objetos */
+
+.box {
+    margin: 3.125rem 3.125rem 1.125rem 3.125rem;
+    padding-top: 1.125rem;
+    border-radius: 25px;
+    /*background-image: url(../Imagenes/fondoGris.png); */
+    background-color: rgba(255, 255, 255, 70%);
+    /* flexear */
+    position: relative;
+    width: 820px; 
+    left: 250px;
+}
+
+.Interbox{
+    
+    margin: 50px 45px 20px 45px;
+    padding: 20px 0px 20px 0px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #C00D1E;
+}
+
+.Interbox ul {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  
+.Interbox li {
+    display: inline-block;
+    margin-right: 120px; /* add spacing between items */
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Interbox a{
+    color: black;
+}
+
+
+.SubCaja{
+    padding: 20px 20px 3px 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #C00D1E;
+    width: 700px;
+    height: 70px;
+}
+
+.SubCaja .texto{
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.RedLine {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #a70a19;; /* old IE */
+    background-color: #a70a19;; /* Modern Browsers */
+}
+
+/* Botones secundarios */
+
+.botonS{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #000000;
+    background: #a70a19;
+    border-radius: 20px;
+    width: 220px;
+    height: 52px;
+    padding-top: 20px;
+}
+
+.botonS:hover{background: #E20118;}
+.botonS a{text-decoration: none;color: #000000;}
+
+/*Inicio*/
+
+.Inicio{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 35% 30% 35%;
+    margin: 30px 0px 0px 30px;
+}
+
+.Inicio img{
+    border-radius: 30px;
+    width: 250px;
+}
+
+.Inicio .profesor{
+    grid-column: 2;
+    grid-row: 1;
+}
+.Inicio .materias{
+    grid-column: 4;
+    grid-row: 1;
+}
+.Inicio .repositorio{
+    grid-column: 4;
+    grid-row: 3;
+}
+.Inicio .horario{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+/* Profesor */
+
+
+
+.creador{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+
+.creador .SubCaja{
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.creador ul {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  
+.creador li {
+    display: inline-block;
+    margin-right: 70px; /* add spacing between items */
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Modal */
+.modalDialog {
+	position: fixed;
+    font-family: 'Roboto', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	-webkit-transition: opacity 00ms ease-in;
+	-moz-transition: opacity 0ms ease-in;
+	transition: opacity 0ms ease-in;
+	pointer-events: none;
+    
+}
+
+.modalDialog .texto{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0px 20px 20px 20px;
+    line-height: 40px
+}
+
+.modalDialog a{
+    text-decoration: none;
+    color: #000;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #C00D1E;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	text-align: center;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #c00404; }
+
+
+/* Animaciones */
+
+/* Estrella */
+.modalDialog .clasificacion input[type="radio"] {display: none;}
+  
+.modalDialog .clasificacion label {color: #444;}
+  
+.modalDialog .clasificacion {
+	direction: rtl;
+    font-size: 30px;
+}
+  
+.modalDialog .clasificacion label:hover,
+.modalDialog .clasificacion label:hover ~ label {color: #e9d208;}
+  
+.modalDialog .clasificacion input[type="radio"]:checked ~ label {color: #e9d208;}
+
+
+/* Materias */
+.CrearBox {
+    height: 100px; width: 500px; position: relative; left: -150px;
+    background-color: rgba(56, 61, 183, 0.8);
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.TextCrear{
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: solid;
+    font-size: 40pt;
+    font-family:'roboto , sans-serif';
+    font-weight: bolder;
+    color:#FFFFFF;
+}
+
+.DashBox{
+    width: 1000px; height: 500;  position: relative; left: 250px;
+}
+
+.ConsBox{
+    height: 1750x; width: 500px; position: relative; left: -150px;
+    background-color: rgba(56, 61, 183, 0.8);
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.TextCons{
+    text-align: center;
+    padding-top: auto;
+    text-decoration: solid;
+    font-size: 40pt;
+    font-family:'roboto , sans-serif';
+    font-weight: bolder;
+    color:#FFFFFF
+}
+
+.ElimBox{
+    height: 1750x; width: 500px; position: relative; left: -150px;
+    background-color: rgba(56, 61, 183, 0.8);
+    margin-top: -169px;
+    margin-left: 600px;
+    border-radius: 15px;
+}
+
+.TextElim{
+    text-align: center;
+    padding-top: auto;
+    text-decoration: solid;
+    font-size: 40pt;
+    font-family:'roboto , sans-serif';
+    font-weight: bolder;
+    color:#FFFFFF
+}
+
+.ModBox {
+    height: 100px; width: 500px; position: relative; left: -150px;
+    background-color: rgba(56, 61, 183, 0.8);
+    margin-top: -322px;
+    margin-left: 600px;
+    border-radius: 15px;
+}
+
+.TextMod{
+    text-align: center;
+    padding-top: 17px;
+    text-decoration: solid;
+    font-size: 40pt;
+    font-family:'roboto , sans-serif';
+    font-weight: bolder;
+    color:#FFFFFF;
+}
+
+.DashBox a{
+    text-decoration: none;
+}
+
+/* ModificarMateria */
+
+.ModNom{
+    width: min-content;
+    background-color: #FFFFFF;
+    margin: 20px 20px 20px 40px;
+}
+
+.ModNom p{
+    font-size: 10pt;
+}
+
+.ModNom1{
+ padding-left: 150px;
+ margin-bottom: 40px;
+ margin-top: -36px;
+ width: min-content;
+ margin-left: 50px;
+ height: min-content;
+}
+.ModNom2{
+    padding-left: 150px;
+    margin-bottom: 40px;
+    margin-top: -25px;
+    width: min-content;
+    margin-left: 50px;
+    height: min-content;
+   }
+
+.creador1{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.creador1 .SubCaja{
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 0;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.creador1 ul {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  
+.creador1 li {
+    display: inline-block;
+    margin-right: 70px; /* add spacing between items */
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box{
+    height: 1000px;
+    width: 1300px;
+}
+.box1 {
+    height: 350px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+  /*  background-image: url(../Imagenes/fondoGris.png); */
+  background-color: rgba(255, 255, 255, 70%)
+}
+
+.box2{
+    height: 770px;
+    width: 600px;
+    margin-top: -840px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    margin-right: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+  /*  background-image: url(../Imagenes/fondoGris.png); */
+  background-color: rgba(255, 255, 255, 70%)
+}
+
+.boox1 h1{
+    font-family: 'roboto , sans-serif';
+    font-weight: bold;
+}
+
+.boox1 p{
+    font-family: 'roboto , sans-serif';
+    font-size: 30pt;
+    text-align: center;
+}
+
+.boox1 ul{
+    font-family: 'roboto , sans-serif';
+    font-size: 30pt;
+    text-align: justify;
+}
+
+.boox2 h1{
+    font-family: 'roboto , sans-serif';
+    font-weight: bold;
+    text-align: center;
+}
+
+.boox2 p{
+    font-family: 'roboto , sans-serif';
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.boox2 ul{
+    font-family: 'roboto , sans-serif';
+    font-size: 20pt;
+    text-align: justify;
+}
