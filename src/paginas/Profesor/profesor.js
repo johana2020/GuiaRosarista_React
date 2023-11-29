@@ -17,11 +17,14 @@ function Profesor() {
             <div class="left">
               <ul>
                 <Link to="./AlexanderCardona"><li> Alexander Cardona</li></Link>
+                <Link to="./AnaBeltran"><li> Ana Maria Beltran</li></Link>
+                <Link to="./CamiloGomez"><li> Camilo Alfonso Gomez</li></Link>
                 <Link to="./CarlosGiraldo"><li> Carlos Andres Giraldo</li></Link>
                 <Link to="./CarolinaAlbarracin"><li> Carolina Albarracin</li></Link>
                 <Link to="./CesarRodriguez"><li> Cesar Augusto Rodriguez</li></Link>
                 <Link to="./CristianMartinez"><li> Cristian Mauricio Martinez</li></Link>
                 <Link to="./DanielBojaca"><li> Daniel Alfonso Bojaca</li></Link>
+                <Link to="./DanielCastro"><li> Daniel Felipe Castro</li></Link>
                 <Link to="./DanielRambaut"><li> Daniel Felipe Rambaut</li></Link>
                 <Link to="./DavidAndrade"><li> David Eugenio Andrade</li></Link>
                 <Link to="./DavidCeleita"><li> David Felipe Celeita</li></Link>
@@ -31,34 +34,32 @@ function Profesor() {
                 <Link to="./HenryNaranjo"><li> Henry Naranjo</li></Link>
                 <Link to="./JavierCasas"><li> Javier Casas</li></Link>
                 <Link to="./JohnArredondo"><li> John Alexander Arredondo</li></Link>
-                <Link to="./JorgeBecerra"><li> Jorge Mario Becerra</li></Link>
-                <Link to="./JoseGuerrero"><li> Jose Alejandro Guerrero</li></Link>
-                <Link to="./JuanYepes"><li> Juan Camilo Yepes</li></Link>
-                <Link to="./"><li> </li></Link>
-                <li><a href="Profesor1.html">Alexander Cardona</a></li>
-                <li><a href="Profesor1.html">Carlos Andres Giraldo</a></li>
-                <li><a href="Profesor1.html">Carolina Albarracin</a></li>                
-                <li><a href="Profesor1.html">Cesar Augusto Rodriguez</a></li>
-                <li><a href="Profesor1.html">Cristian Mauricio Martinez</a></li>
-                <li><a href="Profesor1.html">Profesor 08</a></li>                
-                <li><a href="Profesor1.html">Profesor 09</a></li>
-                <li><a href="Profesor1.html">Profesor 10</a></li>
-                <li><a href="Profesor1.html">Profesor 11</a></li>
-                <li><a href="Profesor1.html">Profesor 12</a></li>
               </ul>
             </div>
             <div class="right">
               <ul>
-                <li><a href="Profesor1.html">Profesor 13</a></li>
-                <li><a href="Profesor1.html">Profesor 14</a></li>
-                <li><a href="Profesor1.html">Profesor 15</a></li>
-                <li><a href="Profesor1.html">Profesor 16</a></li>
-                <li><a href="Profesor1.html">Profesor 17</a></li>
-                <li><a href="Profesor1.html">Profesor 18</a></li>
-                <li><a href="Profesor1.html">Profesor 19</a></li>
-                <li><a href="Profesor1.html">Profesor 20</a></li>
-                <li><a href="Profesor1.html">Profesor 21</a></li>
-                <li><a href="Profesor1.html">Profesor 22</a></li>
+                
+                <Link to="./JorgeBecerra"><li> Jorge Mario Becerra</li></Link>
+                <Link to="./JoseGuerrero"><li> Jose Alejandro Guerrero</li></Link>
+                <Link to="./JuanYepes"><li> Juan Camilo Yepes</li></Link>
+                <Link to="./JuanRubiano"><li> Juan Sebastian Rubiano</li></Link>
+                <Link to="./LuisSeijas"><li> Luis Eduardo Seijas</li></Link>
+                <Link to="./LuzEcheverry"><li> Luz Myriam Echeverry</li></Link>
+                <Link to="./LuzGarcia"><li> Luz Stella Garcia</li></Link>
+                <Link to="./MauroArtigiani"><li> Mauro Artigiani</li></Link>
+                <Link to="./MidoryKomatsudani"><li> Midory Komatsudani</li></Link>
+                <Link to="./MiguelPachon"><li> Miguel Angel Pachon</li></Link>
+                <Link to="./NicolasAvilan"><li> Nicolas Guillermo Avilan</li></Link>
+                <Link to="./NormaSarmiento"><li> Norma Constanza Sarmiento</li></Link>
+                <Link to="./PatriciaHernandez"><li> Patricia Hernandez</li></Link>
+                <Link to="./PedroWightman"><li> Pedro Mario Wightman</li></Link>
+                <Link to="./RafaelMendez"><li> Rafael Alberto Mendez</li></Link>
+                <Link to="./RicardoGarzon"><li> Ricardo Andres Garzon</li></Link>
+                <Link to="./SandraOlaya"><li> Sandra Ximena Olaya</li></Link>
+                <Link to="./SegioDuque"><li> Segio Nicolas Duque</li></Link>
+                <Link to="./StellaSierra"><li> Stella Ines Sierra</li></Link>
+                <Link to="./TatianaCabrera"><li> Tatiana Lizbeth Cabrera</li></Link>
+
               </ul>
             </div>
             
