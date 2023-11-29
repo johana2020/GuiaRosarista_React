@@ -1,0 +1,180 @@
+.Perfil .Interbox{
+    display: flex;
+}
+
+.Interbox .top{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.Interbox .top .right{
+    grid-column-start: 2;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.texto{
+    font-size: 1.5rem;
+}
+
+.top{
+	display: flex;
+}
+
+.InfoProfesor .SubCaja{
+	padding: 0;
+	height: auto;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: 10% 53% 5% 20% 20%;
+}
+
+.InfoProfesor .SubCaja img{
+	grid-column: 2;
+	grid-row: 1;
+	display: flex;
+	justify-self: center;
+}
+
+.InfoProfesor .SubCaja h1{
+	grid-column: 2;
+	grid-row: 4;
+}
+
+.InfoProfesor .SubCaja .star{
+	grid-column: 2;
+	grid-row: 3;
+	display: flex;
+	justify-self: center;
+	font-size: 1.69rem;
+}
+
+.dorado{
+	color: #e9d208;
+}
+
+
+.SubCaja{
+	display: flex;
+    padding: 1.25rem 1.25rem 0.1rem 1.25rem;
+    margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+    background-color: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #C00D1E;
+    width: 28.125rem;
+	height: 12rem;
+}
+
+
+.SubCaja .texto{
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.Comentario{
+    display: grid;
+	grid-template-columns: 20% 60% 40%;
+	grid-template-rows: 10% 53% 5% 20% 20%;
+}
+
+.Comentario .extras{
+	grid-column: 5;
+}
+
+.RedLine {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #a70a19;; /* old IE */
+    background-color: #a70a19;; /* Modern Browsers */
+}
+
+
+/* Modal */
+.modalDialog {
+	position: fixed;
+    font-family: 'Roboto', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	-webkit-transition: opacity 00ms ease-in;
+	-moz-transition: opacity 0ms ease-in;
+	transition: opacity 0ms ease-in;
+	pointer-events: none;
+    
+}
+
+.modalDialog .texto{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0px 20px 20px 20px;
+    line-height: 40px
+}
+
+.modalDialog a{
+    text-decoration: none;
+    color: #000;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #C00D1E;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	text-align: center;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #c00404; }
+
+
+/* Animaciones */
+
+/* Estrella */
+.modalDialog .clasificacion input[type="radio"] {display: none;}
+  
+.modalDialog .clasificacion label {color: #444;}
+  
+.modalDialog .clasificacion {
+	direction: rtl;
+    font-size: 30px;
+}
+  
+.modalDialog .clasificacion label:hover,
+.modalDialog .clasificacion label:hover ~ label {color: #e9d208;}
+  
+.modalDialog .clasificacion input[type="radio"]:checked ~ label {color: #e9d208;}

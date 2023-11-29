@@ -1,0 +1,67 @@
+
+.box1 {
+    height: 350px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+    margin-right: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+  /*  background-image: url(../Imagenes/fondoGris.png); */
+  background-color: rgba(255, 255, 255, 70%)
+}
+
+.box2{
+    height: 770px;
+    width: 600px;
+    margin-top: -840px;
+    margin-bottom: 50px;
+    margin-left: 800px;
+    margin-right: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+  /*  background-image: url(../Imagenes/fondoGris.png); */
+  background-color: rgba(255, 255, 255, 70%)
+}
+
+.boox1 h1{
+    font-family: 'roboto , sans-serif';
+    font-weight: bold;
+}
+
+.boox1 p{
+    font-family: 'roboto , sans-serif';
+    font-size: 30pt;
+    text-align: center;
+}
+
+.boox1 ul{
+    font-family: 'roboto , sans-serif';
+    font-size: 30pt;
+    text-align: justify;
+}
+
+.boox2 h1{
+    font-family: 'roboto , sans-serif';
+    font-weight: bold;
+    text-align: center;
+}
+
+.boox2 p{
+    font-family: 'roboto , sans-serif';
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.boox2 ul{
+    font-family: 'roboto , sans-serif';
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.boox1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}

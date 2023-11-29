@@ -1,0 +1,37 @@
+.repositorioGeneral p{
+    padding: 0rem 2rem 0.5rem 2rem;
+}
+
+.repositorio h1{
+    padding-bottom: 2rem;
+}
+
+.repositorio .Interbox{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 7%;
+}
+
+.repositorio .Interbox li{
+    font-size: 1.7rem;
+}
+
+.repositorio .Interbox .guia{
+    grid-row: 1;
+}
+
+.repositorio .Interbox .left, .repositorio .Interbox .right, .repositorio .Interbox .center{
+    grid-row: 2;
+}
+
+.repositorio .Interbox .center{
+    grid-column: 2;
+}
+
+.repositorio .Interbox .right{
+    grid-column: 3;
+}
+
+.repositorio .Interbox h1{
+    margin-right: 7rem;
+}
