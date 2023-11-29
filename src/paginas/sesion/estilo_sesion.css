@@ -1,0 +1,46 @@
+/* Estilos para el formulario */
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    place-items: center
+  }
+  
+  /* Estilos para los campos del formulario */
+  .registration-form div {
+    margin-bottom: 15px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    place-items: center
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="password"],
+  .registration-form input[type="email"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #a70a19;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #a70a19
+    ;
+  }
+  

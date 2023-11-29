@@ -57,7 +57,7 @@ function Materias() {
             </div>
             
           </div>
-        <h1><div class="botonS"><Link to="./Profesor1" target="_blank">Agregar Materia</Link></div></h1>
+        <h1><div class="botonS"><Link to="/horario/registro" target="_blank">Agregar Materia</Link></div></h1>
         
     </div>
 

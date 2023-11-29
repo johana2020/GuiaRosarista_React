@@ -6,6 +6,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Inicio from './paginas/Inicio/inicio';
+import Horario from './paginas/horario/app';
+import HorarioRegistro from './paginas/horario/registrarHorario';
+import HorarioActualizar from './paginas/horario/actualizarHorario/Pagina';
+import HorarioEliminar from './paginas/horario/eliminarHorario/Eliminar';
+import Registro from './paginas/registro/registro';
+import Login from './paginas/sesion/i_s';
 import Profesor from './paginas/Profesor/profesor';
 import ProfesorProfesor1 from './paginas/Profesor/Profesor1/Profesor1';
 import ProfesorProfesor1review from './paginas/Profesor/Profesor1/review';
@@ -156,6 +162,30 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Inicio/>,
+  },
+  {
+    path: "/horario",
+    element: <Horario/>
+  },
+  {
+    path: "/horario/registro",
+    element: <HorarioRegistro/>
+  },
+  {
+    path: "/horario/actualizar",
+    element: <HorarioActualizar/>
+  },
+  {
+    path: "/horario/eliminar",
+  element: <HorarioEliminar/>
+  },
+  {
+    path: "/Registro",
+    element: <Registro/>
+  },
+  {
+    path: "/Login",
+    element: <Login/>
   },
   {
     path: "profesor",

@@ -59,8 +59,8 @@ function Materias() {
             </div>
         </div>    
         <h1>
-            <div class="botonS" ><Link to ="../editar">Editar</Link></div>
-            <div class="botonS" ><Link to ="../eliminar">Eliminar</Link></div>
+            <div class="botonS" ><Link to ="horario/actualizar">Editar</Link></div>
+            <div class="botonS" ><Link to ="horario/eliminar">Eliminar</Link></div>
             <br></br><br></br>
         </h1>
     </div>
