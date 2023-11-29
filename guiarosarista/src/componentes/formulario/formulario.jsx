@@ -28,10 +28,12 @@ const LoginForm = () => {
 };
 
 return (
-    <div>
+    <div class="container">
       <h2>Iniciar sesión</h2>
+      <br />
+      <br />
       <form onSubmit={handleSubmit}>
-        <div>
+        <div class="container">
           <label for="username" class="custom-label">Correo electrónico:</label>
           <input
             type="email"
@@ -40,9 +42,10 @@ return (
             onChange={handleEmailChange}
             required
           />
+          <br />
         </div>
-
-        <div>
+        <br />
+        <div class="container">
         <label for="username" class="custom-label">Contraseña:</label>         
           <input
             type="password"
@@ -51,9 +54,12 @@ return (
             onChange={handlePasswordChange}
             required
           />
+          <br/>
+          <br />
         </div>
         <button class = "botonS">Acceder</button>
       </form>
+      <br />
     </div>
   );
   

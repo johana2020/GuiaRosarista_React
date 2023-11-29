@@ -10,9 +10,10 @@ function App() {
   return (<>
   {/* 
   <Navbar/>
-  <Login/>
-<Inicio/> */}
   <Registro/>
+  <Inicio/> 
+*/}
+  <Login/>
   </>
      );
 }

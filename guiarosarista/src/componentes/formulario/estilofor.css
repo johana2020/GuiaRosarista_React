@@ -12,13 +12,17 @@
 .botonS{
     font-family: 'Inter';
     justify-content: center; 
-    text-align: center;
     color: #000000;
     background: #e3070f;
-    /* border-radius: 10px;
-    width: 13.75rem;
-    height: 3.25rem;
-    padding-top: 1.25rem; */
+    place-items: center;
+    padding: 15px;
+    border: none;
+    border-radius: 1px;  
+    cursor: pointer;
+    width: calc(100% - 6px);
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }   
 
 
